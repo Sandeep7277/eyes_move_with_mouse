@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgreen;
+
+}
+.face{
+    width: 320px;
+    height: 290px;
+    border: 1px solid #ddd;
+    background-color: snow;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px 1px grey;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: flex;
+    gap: 30px;
+
+}
+.eye{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    background-color: snow;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 1px #ddd;
+    position: relative;
+    top: 80px;
+    left: 45px;
+    
+}
+.iris{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
